@@ -109,23 +109,6 @@ class App extends NextApp {
           <meta name="msapplication-TileColor" content="#ffffff" />
           <meta name="msapplication-TileImage" content="/manifest/ms-icon-144x144.png" />
           <meta name="theme-color" content="#ffffff" />
-          {process.env.NODE_ENV === 'production' && (
-            <script
-              dangerouslySetInnerHTML={{
-                __html: `(function(w,d,s,l,i){
-                  w[l]=w[l]||[];
-                  function gtag(){w[l].push(arguments);}
-                  gtag('js', new Date());
-                  gtag('config', i);
-                  var f=d.getElementsByTagName(s)[0];
-                  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
-                  j.async=true;
-                  j.src='https://www.googletagmanager.com/gtag/js?id='+i+dl;
-                  f.parentNode.insertBefore(j,f);
-                })(window,document,'script','dataLayer','G-CEVZQESQGT');`,
-              }}
-            />
-          )}
         </Head>
         <ThemeProvider theme={theme}>
           <Provider store={store}>
