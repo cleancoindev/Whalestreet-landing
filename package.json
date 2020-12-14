@@ -1,0 +1,47 @@
+{
+  "name": "whalestreet-ui",
+  "version": "1.0.0",
+  "description": "UI for Whalestreet",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "prod": "next build && next start",
+    "build": "next build && npm run export",
+    "start": "next start",
+    "export": "next export -o build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lendroidproject/Whalestreet-ui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lendroidproject/Whalestreet-ui/issues"
+  },
+  "homepage": "https://github.com/lendroidproject/Whalestreet-ui#readme",
+  "dependencies": {
+    "@trendmicro/react-dropdown": "^1.4.0",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "next": "^10.0.3",
+    "next-cookies": "^2.0.3",
+    "next-images": "^1.6.2",
+    "next-offline": "^5.0.3",
+    "next-redux-wrapper": "^4.0.1",
+    "react": "^16.14.0",
+    "react-copy-to-clipboard": "^5.0.2",
+    "react-dom": "^16.14.0",
+    "react-helmet": "^6.1.0",
+    "react-redux": "^7.2.2",
+    "react-youtube": "^7.13.0",
+    "redux": "^4.0.5",
+    "styled-components": "^5.2.1",
+    "tinyurl": "^1.1.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@svgr/webpack": "^5.5.0",
+    "babel-plugin-styled-components": "^1.12.0"
+  }
+}
