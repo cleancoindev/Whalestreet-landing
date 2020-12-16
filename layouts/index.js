@@ -127,21 +127,11 @@ export default function Layout({ children }) {
         <a className="uppercase" href="https://discord.com/invite/pEbSg4qp3y" target="_blank">
           Discord
         </a>
-        <a className="uppercase" href="https://github.com/lendroidproject/Whalestreet-contracts" target="_blank">
-          Github
-        </a>
         <a className="uppercase" href="https://twitter.com/WhaleStreetoffl" target="_blank">
           Twitter
         </a>
-        <a
-          className="uppercase"
-          href="https://docs.google.com/document/d/1cDNOpdCgI0ZwymjSSOEJIVGFiOYPQ53Y9GFTOaovfLE/edit?usp=sharing"
-          target="_blank"
-        >
-          Developer Docs
-        </a>
-        <a className="uppercase" href="https://blog.whalestreet.xyz/" target="_blank">
-          Forum
+        <a className="uppercase" href="https://github.com/lendroidproject/Whalestreet-contracts" target="_blank">
+          Github
         </a>
       </Footer>
     </Wrapper>
